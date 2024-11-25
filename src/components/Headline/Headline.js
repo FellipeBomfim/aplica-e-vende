@@ -14,7 +14,7 @@ export function Headline(){
 
             <ReactPlayer 
                 width="50vw" 
-                height="28.15vmin"
+                height="27.5vw"
                 playing={true}
                 muted={true} 
                 url="https://www.youtube.com/watch?v=NpEaa2P7qZI"
