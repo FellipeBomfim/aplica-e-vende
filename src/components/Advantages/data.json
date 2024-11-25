@@ -1,0 +1,32 @@
+[
+    {
+        "image": "/0.png",
+        "subtitle": "Sem sair do seu emprego atual",
+        "description": "Você pode trabalhar poucas horas por dia"
+    },
+    {
+        "image": "/1.png",
+        "subtitle": "Sem saber que produto vender",
+        "description": "Temos produtos validados para você usar"
+    },
+    {
+        "image": "/2.png",
+        "subtitle": "Sem saber qual mercado começar",
+        "description": "Explico como atuar em cada um dos 3 Grandes Mercados"
+    },
+    {
+        "image": "/3.png",
+        "subtitle": "Sem parar de procrastinar",
+        "description": "No Suporte Premium vou te mostrar como resolver esse problema"
+    },
+    {
+        "image": "/4.png",
+        "subtitle": "Sem saber rodar tráfego",
+        "description": "Ensino o passo a passo do tráfego de performance"
+    },
+    {
+        "image": "/5.png",
+        "subtitle": "Sem esperança por tentar e não conseguir",
+        "description": "Vou pessoalmente motivar você a entrar em ação"
+    }
+]
