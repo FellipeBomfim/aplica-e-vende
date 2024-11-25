@@ -17,7 +17,7 @@ export function Headline(){
                 height="28.15vmin"
                 playing={true}
                 muted={true} 
-                url="https://www.youtube.com/watch?v=Aj-iZjcwZyw&t=1s"
+                url="https://www.youtube.com/watch?v=NpEaa2P7qZI"
             />
 
             <Button variant="contained" style={Styles.button}><h2>QUERO ME TORNAR UM ESPECIALISTA EM VENDAS ONLINE</h2></Button>
