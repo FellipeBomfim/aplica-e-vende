@@ -9,17 +9,17 @@ function renderBoxes(json) {
             if (cont % 2 == 0) {
                 return (
                     <div style={Styles.indigoBox}>
-                        <img src={item.image} />
-                        <h4 style={Styles.subtitle}>{item.subtitle}</h4>
-                        <h5 style={Styles.description}>{item.description}</h5>
+                        <img style={Styles.icon} src={item.image} />
+                        <h3 style={Styles.subtitle}>{item.subtitle}</h3>
+                        <h4 style={Styles.description}>{item.description}</h4>
                     </div>
                 )
             } else {
                 return (
                     <div style={Styles.blueBox}>
-                        <img src={item.image} />
-                        <h4 style={Styles.subtitle}>{item.subtitle}</h4>
-                        <h5 style={Styles.description}>{item.description}</h5>
+                        <img style={Styles.icon} src={item.image} />
+                        <h3 style={Styles.subtitle}>{item.subtitle}</h3>
+                        <h4 style={Styles.description}>{item.description}</h4>
                     </div>
                 )
             }
@@ -27,7 +27,7 @@ function renderBoxes(json) {
     )
 }
 
-export function Advantages() {
+export function AdvantagesMobile() {
     return (
         <div style={Styles.main}>
 

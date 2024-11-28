@@ -13,8 +13,8 @@ export const Styles = {
   roundBox: {
     backgroundColor: "#202a45",
     borderRadius: "40px 40px 30px 30px",
-    width: "70vw",
-    height: "180vh"
+    width: "80vw",
+    height: "187.5vh"
   },
 
   box: {
@@ -24,8 +24,8 @@ export const Styles = {
     backgroundRepeat: 'no-repeat',
     borderRadius: "30px 30px 0 0",
     color: "#ffffff",
-    width: "70vw",
-    height: "45vh",
+    width: "80vw",
+    height: "46.5vh",
     display: "flex",
     flexDirection: "row",
     alignItems: "center",
@@ -50,23 +50,23 @@ export const Styles = {
 
   blueBox: {
     backgroundColor: "rgb(54, 63, 87, 0.5)",
-    width: "70vw",
-    height: "22.5vh",
+    width: "80vw",
+    height: "23.5vh",
     boxSizing: "border-box",
-    padding: "3vh",
-    textAlign: "center"
+    padding: "3vh 3vh 3vh 5vh",
+    textAlign: "left"
   },
 
   indigoBox: {
-    width: "70vw",
-    height: "22.5vh",
+    width: "80vw",
+    height: "23.5vh",
     boxSizing: "border-box",
-    padding: "3vh",
-    textAlign: "center"
+    padding: "3vh 3vh 3vh 5vh",
+    textAlign: "left"
   },
 
   icon: {
-    width: "3.5vw"
+    width: "7.5vw"
   },
 
   subtitle: {

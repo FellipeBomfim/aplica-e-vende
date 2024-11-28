@@ -2,7 +2,7 @@ import { Button } from "@mui/material";
 import ReactPlayer from "react-player";
 import { Styles } from "./Styles";
 
-export function Headline(){
+export function HeadlineMobile(){
     return(
         <div style={Styles.main}>
             <h2 style={Styles.title}>
@@ -13,14 +13,14 @@ export function Headline(){
             <h4 style={Styles.description}>Mesmo que você seja um completo iniciante...</h4>
 
             <ReactPlayer 
-                width="50vw" 
-                height="27.5vw"
+                width="65vw" 
+                height="37.5vw"
                 playing={true}
                 muted={true} 
                 url="https://www.youtube.com/watch?v=NpEaa2P7qZI"
             />
 
-            <Button variant="contained" style={Styles.button}><h2>QUERO ME TORNAR UM ESPECIALISTA EM VENDAS ONLINE</h2></Button>
+            <Button variant="contained" style={Styles.button}><h2 style={{width: "55vw"}}>QUERO ME TORNAR UM ESPECIALISTA EM VENDAS ONLINE</h2></Button>
         </div>
     )
 }

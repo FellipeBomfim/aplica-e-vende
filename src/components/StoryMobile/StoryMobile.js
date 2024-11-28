@@ -1,6 +1,6 @@
 import { Styles } from "./Styles";
 
-export function Story() {
+export function StoryMobile() {
     return (
         <div style={Styles.main}>
 
