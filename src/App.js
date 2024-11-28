@@ -43,7 +43,7 @@ class App extends Component {
           </div>
         )}
         {!this.state.matches && (
-          <div style={Styles.main}>
+          <div style={Styles.mobile}>
             <HeadlineMobile />
             <StoryMobile />
             <GraphMobile />
