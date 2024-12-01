@@ -13,21 +13,23 @@ export const Styles = {
   whitebox: {
     backgroundColor: "#ffffff",
     width: "100vw",
-    height: "40vh"
+    height: "40vh",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center"
   },
 
   title: {
-    marginTop: "8vh",
     marginBottom: 0,
-    marginLeft: "30vw",
-    marginRight: "30vw",
+    marginLeft: "20vw",
+    marginRight: "20vw",
     textAlign: "center"
   },
 
   description: {
     marginTop: "3vh",
-    marginLeft: "25vw",
-    marginRight: "25vw",
+    marginLeft: "15vw",
+    marginRight: "15vw",
     textAlign: "center",
     fontWeight: 400
   },
@@ -40,7 +42,7 @@ export const Styles = {
     width: "100vw",
     height: "60vh",
     display: "flex",
-    flexDirection: "row",
+    flexDirection: "column",
     boxSizing: "border-box",
     alignItems: "flex-end",
     justifyContent: "center"
@@ -50,15 +52,39 @@ export const Styles = {
     color: "#e8ff72"
   },
 
-  bubbles: {
-    width: "17.5vw",
-    textAlign: "left",
-    margin: "auto",
-    fontWeight: 350
+  profile: {
+    height: "35vh",
+    overflow: "visible",
+    margin: "0 auto 0 auto"
   },
 
-  profile: {
-    height: "20vw",
-    overflow: "visible"
+  card: {
+    width: "70vw",
+    height: "30vh",
+    overflow: "visible",
+    margin: "0 auto 10vh auto",
+    padding: "0 auto 10vh auto",
+    boxSizing: "border-box",
+    display: "flex",
+    flexDirection: "column",
+    boxSizing: "border-box",
+    alignItems: "flex-end",
+  },
+
+  carousel: {
+    width: "70vw",
+    height: "40vh"
+  },
+
+  carouselDiv: {
+    width: "70vw",
+    alignItems: "center"
+  },
+
+  carouselText: {
+    margin: 0,
+    boxSizing: "border-box",
+    padding: "1.5vw",
+    fontWeight: 350
   }
 }

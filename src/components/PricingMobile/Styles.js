@@ -13,9 +13,12 @@ export const Styles = {
     },
 
     topBox: {
+        display: "flex",
+        flexDirection: "column",
         height: "150vh",
         boxSizing: "border-box",
-        paddingTop: "3vw"
+        paddingTop: "3vw",
+        justifyContent: "center"
     },
 
     title: {
@@ -32,8 +35,7 @@ export const Styles = {
         color: "#ffffff",
         width: "65vw",
         height: "55vw",
-        marginLeft: "4vw",
-        marginRight: "4vw",
+        margin: "4vw",
         textAlign: "center",
         alignItems: "center",
         boxSizing: "border-box",
@@ -76,7 +78,8 @@ export const Styles = {
         alignItems: "center",
         display: "flex",
         flexDirection: "column",
-        borderTop: "3px solid #e8ff72"
+        borderTop: "3px solid #e8ff72",
+        justifyContent: "center"
     },
 
     image: {

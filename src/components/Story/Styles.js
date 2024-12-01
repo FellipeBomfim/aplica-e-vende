@@ -50,15 +50,27 @@ export const Styles = {
     color: "#e8ff72"
   },
 
+  carousel: {
+    width: "60vw",
+    height: "40vh",
+    margin: "auto 0 auto 0"
+  },
+
+  carouselDiv: {
+    width: "60vw",
+    alignItems: "center"
+  },
+
   bubbles: {
-    width: "17.5vw",
+    width: "60vw",
     textAlign: "left",
-    margin: "auto",
-    fontWeight: 350
+    fontWeight: 350,
+    margin: "auto 0 auto 0"
   },
 
   profile: {
     height: "62vh",
+    margin: "0 5vw 0 0",
     overflow: "visible"
   }
 }
