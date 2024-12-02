@@ -1,7 +1,7 @@
 export const Styles = {
     main:{
         backgroundColor: "#ffffff",
-        height: "1150vh",
+        height: "1050vh",
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
@@ -12,7 +12,7 @@ export const Styles = {
     
     mobile:{
         backgroundColor: "#ffffff",
-        height: "1450vh",
+        height: "1350vh",
         display: "flex",
         flexDirection: "column",
         alignItems: "center",

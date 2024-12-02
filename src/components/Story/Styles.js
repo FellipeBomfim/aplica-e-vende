@@ -33,7 +33,7 @@ export const Styles = {
   },
 
   graybox: {
-    backgroundImage: "url(" + "/story-bg.png" + ")",
+    backgroundImage: "url(" + "/story.png" + ")",
     backgroundPosition: 'center',
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
@@ -51,18 +51,18 @@ export const Styles = {
   },
 
   carousel: {
-    width: "60vw",
+    width: "50vw",
     height: "40vh",
     margin: "auto 0 auto 0"
   },
 
   carouselDiv: {
-    width: "60vw",
+    width: "50vw",
     alignItems: "center"
   },
 
   bubbles: {
-    width: "60vw",
+    width: "50vw",
     textAlign: "left",
     fontWeight: 350,
     margin: "auto 0 auto 0"
@@ -70,7 +70,7 @@ export const Styles = {
 
   profile: {
     height: "62vh",
-    margin: "0 5vw 0 0",
+    margin: "0 0 0 5vw",
     overflow: "visible"
   }
 }

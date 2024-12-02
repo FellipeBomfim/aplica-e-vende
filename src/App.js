@@ -34,7 +34,6 @@ class App extends Component {
           <div style={Styles.main}>
             <Headline />
             <Story />
-            <Graph />
             <Steps />
             <Advantages />
             <Cards />
@@ -46,7 +45,6 @@ class App extends Component {
           <div style={Styles.mobile}>
             <HeadlineMobile />
             <StoryMobile />
-            <GraphMobile />
             <StepsMobile />
             <AdvantagesMobile />
             <CardsMobile />

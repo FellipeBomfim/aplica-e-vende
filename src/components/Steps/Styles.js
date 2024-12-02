@@ -22,7 +22,7 @@ export const Styles = {
     },
 
     image: {
-      width: "57.5vw"
+      width: "50vw"
     }
   
   }

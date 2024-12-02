@@ -26,7 +26,7 @@ export function Pricing() {
                     <h1 style={Styles.cardTitle}><span style={{fontSize: "1.5vw"}}>12x</span> R$33,08</h1>
                     <h5 style={Styles.cardDescription}>ou R$397,00 à vista</h5>
                     <h6 style={{marginTop: "4vw"}}>Passarinho que chega cedo bebe água limpa, clica no botão e garanta sua vaga!</h6>
-                    <Button variant="contained" style={Styles.button}><h2>QUERO GARANTIR MINHA VAGA NO APLICA E VENDE</h2></Button>
+                    <Button href="https://pay.kirvano.com/d1be7de5-310e-4998-a00e-f27b74fec6ef" variant="contained" style={Styles.button}><h2>QUERO GARANTIR MINHA VAGA NO APLICA E VENDE</h2></Button>
 
                 </Card>
 
@@ -37,9 +37,6 @@ export function Pricing() {
                 }}>
 
                     <h5 style={Styles.description}>
-                        • Sistema Akinatra
-                        <br />
-                        <br />
                         • Suporte Premium, Exclusivo e Ilimitado
                         <br />
                         <br />

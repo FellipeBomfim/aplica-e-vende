@@ -5,8 +5,8 @@ import { Styles } from "./Styles";
 export function Steps(){
     return(
         <div style={Styles.main}>
-            <h2 style={Styles.title}>Você nunca mais se sentirá perdido, quando usar as 5 etapas da Estrutura de Projetos Céticos</h2>
-            <img style={Styles.image} src="/steps.svg"/>
+            <h2 style={Styles.title}>Você nunca mais ficará perdido ao aplicar as 5 etapas da Estrutura de Projetos Práticos.</h2>
+            <img style={Styles.image} src="/steps.png"/>
         </div>
     )
 }

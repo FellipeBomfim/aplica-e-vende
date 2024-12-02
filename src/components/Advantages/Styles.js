@@ -18,7 +18,7 @@ export const Styles = {
   },
 
   box: {
-    backgroundImage: "url(" + "/advantages-box-bg.png" + ")",
+    backgroundImage: "url(" + "/story.png" + ")",
     backgroundPosition: 'center',
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
@@ -29,23 +29,20 @@ export const Styles = {
     display: "flex",
     flexDirection: "row",
     alignItems: "center",
-
-    "&:hover": {
-      backgroundColor: "green",
-      transform: "rotate(180deg)"
-    }
-  },
-
-  image: {
-    widht: "25vw",
-    height: "50vh"
+    justifyContent: "center"
   },
 
   title: {
     color: "#000000",
-    marginLeft: "5vw",
-    marginRight: "40vw",
+    width: "30vw",
+    margin: "0 5vw 0 5vw",
     textAlign: "left"
+  },
+
+  image: {
+    widht: "25vw",
+    height: "42.5vh",
+    marginTop: "auto"
   },
 
   blueBox: {

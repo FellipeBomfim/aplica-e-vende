@@ -24,7 +24,7 @@ export function CardsMobile() {
         <div style={Styles.main}>
 
             <h2 style={Styles.title}>CHEGA DE SEGUIR SCRIPTS OU FÓRMULAS E CONSTRUA PRODUTOS VALIDADOS QUE SÃO DO SEU JEITO</h2>
-            <h3 style={Styles.description}>Veja agora os <strong style={Styles.markedText}>6 Princípios da Metodologia EVO </strong> 
+            <h3 style={Styles.description}>Veja agora os <strong style={Styles.markedText}>6 Princípios da Metodologia Aplica e Vende </strong> 
             que me tiram da cama e me fazem trabalhar para ajudar você a alcançar seus objetivos.</h3>
 
             <div style={Styles.cardRow}>

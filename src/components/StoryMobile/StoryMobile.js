@@ -19,7 +19,7 @@ export function StoryMobile() {
 
             <div style={Styles.graybox}>
 
-                <img style={Styles.profile} src="/profile.png" />
+                <img style={Styles.profile} src="/story-profile.png" />
 
                 <Card sx={Styles.card} variant="outlined">
                     <Slider style={Styles.carousel} settings={{

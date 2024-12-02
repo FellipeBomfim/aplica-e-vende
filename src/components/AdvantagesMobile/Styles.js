@@ -18,7 +18,7 @@ export const Styles = {
   },
 
   box: {
-    backgroundImage: "url(" + "/advantages-box-bg.png" + ")",
+    backgroundImage: "url(" + "/story.png" + ")",
     backgroundPosition: 'center',
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
@@ -38,13 +38,13 @@ export const Styles = {
 
   image: {
     widht: "25vw",
-    height: "50vh"
+    height: "42.5vh",
+    margin: "auto 5vw 0 0"
   },
 
   title: {
     color: "#000000",
     marginLeft: "5vw",
-    marginRight: "40vw",
     textAlign: "left"
   },
 

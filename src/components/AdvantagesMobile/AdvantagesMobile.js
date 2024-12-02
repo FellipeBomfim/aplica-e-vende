@@ -34,6 +34,7 @@ export function AdvantagesMobile() {
             <div style={Styles.roundBox}>
                 <div style={Styles.box}>
                     <h3 style={Styles.title}>Com o curso APLICA E VENDE, você vai conseguir construir o maior salário que você já imaginou ter</h3>
+                    <img style={Styles.image} src="/profile.png" />
                 </div>
                 {renderBoxes(data)}
             </div>

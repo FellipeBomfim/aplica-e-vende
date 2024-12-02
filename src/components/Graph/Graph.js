@@ -11,7 +11,7 @@ export function Graph(){
                 <h4 style={Styles.descriptionLeft}>Já investi MILHÕES DE REAIS em cursos, mentorias, networking e testando as minhas campanhas…</h4>
 
                 <h2 style={Styles.titleRight}>Para que seu único investimento,</h2>
-                <h4 style={Styles.descriptionRight}>seja na sua inscrição para o EVO.</h4>
+                <h4 style={Styles.descriptionRight}>seja na sua inscrição para o Aplica e Vende.</h4>
 
             </div>
         </div>

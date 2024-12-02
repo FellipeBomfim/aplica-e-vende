@@ -20,8 +20,6 @@ export function Story() {
 
             <div style={Styles.graybox}>
 
-                <img style={Styles.profile} src="/profile.png" />
-
                 <Slider style={Styles.carousel} settings={{
                     dots: true,
                     infinite: true,
@@ -74,6 +72,8 @@ export function Story() {
                         </h3>
                     </div>
                 </Slider>
+
+                <img style={Styles.profile} src="/story-profile.png" />
 
             </div>
 
