@@ -70,7 +70,7 @@ export const Styles = {
 
   profile: {
     height: "62vh",
-    margin: "0 0 0 5vw",
+    margin: "0 5vw 0 0",
     overflow: "visible"
   }
 }
