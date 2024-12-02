@@ -14,7 +14,6 @@ export const Styles = {
     },
   
     title: {
-      marginTop: "8vh",
       marginBottom: "4vh",
       marginLeft: "32vw",
       marginRight: "32vw",
