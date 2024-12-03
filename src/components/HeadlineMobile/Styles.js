@@ -38,6 +38,7 @@ export const Styles = {
     height: "9vh",
     margin: "auto",
     borderRadius: 10,
-    fontSize: "2vw"
+    fontSize: "2vw",
+    textAlign: "center"
   }
 }

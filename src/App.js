@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Steps } from './components/Steps/Steps';
-import { Graph } from './components/Graph/Graph';
 import { Headline } from './components/Headline/Headline';
 import { Story } from './components/Story/Story';
 import { Styles } from './Styles';
@@ -16,6 +15,8 @@ import { AdvantagesMobile } from './components/AdvantagesMobile/AdvantagesMobile
 import { CardsMobile } from './components/CardsMobile/CardsMobile';
 import { ObjectivesMobile } from './components/ObjectivesMobile/ObjectivesMobile';
 import { PricingMobile } from './components/PricingMobile/PricingMobile';
+import { Footer } from './components/Footer/Footer';
+import { FooterMobile } from './components/FooterMobile/FooterMobile';
 
 class App extends Component {
   constructor(props) {
@@ -39,6 +40,7 @@ class App extends Component {
             <Cards />
             <Objectives />
             <Pricing />
+            <Footer/>
           </div>
         )}
         {!this.state.matches && (
@@ -50,6 +52,7 @@ class App extends Component {
             <CardsMobile />
             <ObjectivesMobile />
             <PricingMobile />
+            <FooterMobile/>
           </div>
         )}
       </div>
