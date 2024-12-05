@@ -30,6 +30,12 @@ export const Styles = {
     fontWeight: 100
   },
 
+  unmute: {
+    backgroundColor: "#e8ff72",
+    color: "#1f2227",
+    borderRadius: 10,
+  },
+
   button: {
     backgroundColor: "#e8ff72",
     color: "#1f2227",
