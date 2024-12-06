@@ -33,7 +33,6 @@ export const Styles = {
     },
 
     image: {
-        width: "100vw",
         height: "175vh"
     }
 }
