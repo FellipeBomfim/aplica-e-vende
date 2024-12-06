@@ -31,6 +31,15 @@ export const Styles = {
     marginBottom: "auto"
   },
 
+  video: {
+    width:"65vw",
+    height:"37.5vw",
+    boxSizing:"border-box",
+    borderStyle:"outset",
+    borderColor:"#ffffff",
+    borderWidth:"5px",
+  },
+
   button: {
     backgroundColor: "#e8ff72",
     color: "#1f2227",

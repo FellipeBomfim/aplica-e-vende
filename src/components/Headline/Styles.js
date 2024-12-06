@@ -30,10 +30,13 @@ export const Styles = {
     fontWeight: 100
   },
 
-  unmute: {
-    backgroundColor: "#e8ff72",
-    color: "#1f2227",
-    borderRadius: 10,
+  video: {
+    width:"48.5vw",
+    height:"27.5vw",
+    boxSizing:"border-box",
+    borderStyle:"outset",
+    borderColor:"#ffffff",
+    borderWidth:"5px",
   },
 
   button: {
