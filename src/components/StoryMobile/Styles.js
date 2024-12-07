@@ -35,7 +35,7 @@ export const Styles = {
   },
 
   graybox: {
-    backgroundImage: "url(" + "/story-bg.png" + ")",
+    backgroundImage: "url(" + "/steps-bg.png" + ")",
     backgroundPosition: 'center',
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
